@@ -19,7 +19,9 @@ btn.addEventListener('click', function () {
         let currentSquare = createSquare();
         // aggiungo l'evento click al quadrato creato
         currentSquare.addEventListener('click', function () {
-
+            // aggiungo/tolgo la classe clicked-blue e lo mostro in console
+            this.classList.toggle('clicked-blue');
+            console.log(i + 1);
         });
     }
 });
