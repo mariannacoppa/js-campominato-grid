@@ -15,6 +15,7 @@ const grid = document.getElementById('grid');
 btn.addEventListener('click', function () {
     // eseguo un ciclo di 100 iterazioni per creare una griglia 10 x 10
     for (let i = 0; i < 100; i++) {
-        
+        // creo il singolo quadrato chiamando la funzione createSquare
+        let currentSquare = createSquare();
     }
 });
