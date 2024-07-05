@@ -11,3 +11,7 @@ function createSquare () {
 const btn = document.getElementById('start');
 // recupero il tag che conterrà la griglia
 const grid = document.getElementById('grid');
+// assegno l'evento click al pulsante recuperato nel dom
+btn.addEventListener('click', function () {
+
+});
