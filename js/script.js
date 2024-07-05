@@ -13,5 +13,8 @@ const btn = document.getElementById('start');
 const grid = document.getElementById('grid');
 // assegno l'evento click al pulsante recuperato nel dom
 btn.addEventListener('click', function () {
-
+    // eseguo un ciclo di 100 iterazioni per creare una griglia 10 x 10
+    for (let i = 0; i < 100; i++) {
+        
+    }
 });
