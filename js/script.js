@@ -23,5 +23,7 @@ btn.addEventListener('click', function () {
             this.classList.toggle('clicked-blue');
             console.log(i + 1);
         });
+        // assegno il numero progressivo
+        currentSquare.innerText = i + 1;
     }
 });
