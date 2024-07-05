@@ -25,5 +25,7 @@ btn.addEventListener('click', function () {
         });
         // assegno il numero progressivo
         currentSquare.innerText = i + 1;
+        // appendo il quadrato all'interno della griglia
+        grid.append(currentSquare);
     }
 });
