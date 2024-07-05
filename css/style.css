@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+header, .square {
+    color: white;
+}
 header {
     padding: 20px 10px;
     background-color: navy;
     margin-bottom: 50px;
-    color: white;
+    
     text-align: right;
 }
 #start {
@@ -18,7 +21,8 @@ header {
     border-radius: 20px;
 }
 #grid {
-    max-width: 1200px;
+    width: 500px;
+    height: 500px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +36,6 @@ header {
     background-color: darkgreen;
     border: 1px solid white;
 }
-#clicked-blue {
+.clicked-blue {
     background-color: rgb(3, 181, 181);
 }

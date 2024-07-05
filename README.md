@@ -20,7 +20,7 @@ Pseudocodice
 5 assegno l'evento click al pulsante recuperato nel dom
 6 creo un ciclo di 100 iterazioni per creare una griglia 10 x 10
 7 aggiungo l'evento cick al quadrato creato
-7.1 SE il valore del'innerText è pari, aggiungo/tolgo la classe con sfondo azzurro
+7.1 SE il valore del'innerText è pari, aggiungo/tolgo la classe con sfondo azzurro e compare messaggio in console
 7.2 ALTRIMENTI quella con sfondo di default
 8 assegno al quadrato un numero progressivo
 9 appendo il quadrato nella griglia
