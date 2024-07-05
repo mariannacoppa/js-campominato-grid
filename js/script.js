@@ -4,4 +4,6 @@ function createSquare () {
     let currentElement = document.createElement('div');
     // assegnazione della classe square all'elemento creato
     currentElement.classList.add('square');
+    // restituisco il quadrato contenuto nella variabile currentElement
+    return currentElement;
 }
