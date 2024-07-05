@@ -7,3 +7,5 @@ function createSquare () {
     // restituisco il quadrato contenuto nella variabile currentElement
     return currentElement;
 }
+// recupero il tag button
+const btn = document.getElementById('start');
