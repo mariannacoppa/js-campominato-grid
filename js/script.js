@@ -17,5 +17,9 @@ btn.addEventListener('click', function () {
     for (let i = 0; i < 100; i++) {
         // creo il singolo quadrato chiamando la funzione createSquare
         let currentSquare = createSquare();
+        // aggiungo l'evento click al quadrato creato
+        currentSquare.addEventListener('click', function () {
+
+        });
     }
 });
